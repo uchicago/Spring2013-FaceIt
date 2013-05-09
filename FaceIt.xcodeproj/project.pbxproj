@@ -18,6 +18,9 @@
 		37447426173AEDBB001B4A3F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37447425173AEDBB001B4A3F /* Default-568h@2x.png */; };
 		37447429173AEDBB001B4A3F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37447427173AEDBB001B4A3F /* MainStoryboard.storyboard */; };
 		3744742C173AEDBB001B4A3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744742B173AEDBB001B4A3F /* ViewController.m */; };
+		37447435173AEE88001B4A3F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37447434173AEE88001B4A3F /* QuartzCore.framework */; };
+		37447437173AEE90001B4A3F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37447436173AEE90001B4A3F /* CoreImage.framework */; };
+		3744743B173AEFE0001B4A3F /* obama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3744743A173AEFE0001B4A3F /* obama.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		37447428173AEDBB001B4A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3744742A173AEDBB001B4A3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3744742B173AEDBB001B4A3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37447434173AEE88001B4A3F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		37447436173AEE90001B4A3F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3744743A173AEFE0001B4A3F /* obama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obama.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37447437173AEE90001B4A3F /* CoreImage.framework in Frameworks */,
+				37447435173AEE88001B4A3F /* QuartzCore.framework in Frameworks */,
 				37447410173AEDBB001B4A3F /* UIKit.framework in Frameworks */,
 				37447412173AEDBB001B4A3F /* Foundation.framework in Frameworks */,
 				37447414173AEDBB001B4A3F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +64,8 @@
 		37447403173AEDBB001B4A3F = {
 			isa = PBXGroup;
 			children = (
+				37447436173AEE90001B4A3F /* CoreImage.framework */,
+				37447434173AEE88001B4A3F /* QuartzCore.framework */,
 				37447415173AEDBB001B4A3F /* FaceIt */,
 				3744740E173AEDBB001B4A3F /* Frameworks */,
 				3744740D173AEDBB001B4A3F /* Products */,
@@ -88,6 +98,7 @@
 				37447427173AEDBB001B4A3F /* MainStoryboard.storyboard */,
 				3744742A173AEDBB001B4A3F /* ViewController.h */,
 				3744742B173AEDBB001B4A3F /* ViewController.m */,
+				3744743A173AEFE0001B4A3F /* obama.jpeg */,
 				37447416173AEDBB001B4A3F /* Supporting Files */,
 			);
 			path = FaceIt;
@@ -162,6 +173,7 @@
 				37447424173AEDBB001B4A3F /* Default@2x.png in Resources */,
 				37447426173AEDBB001B4A3F /* Default-568h@2x.png in Resources */,
 				37447429173AEDBB001B4A3F /* MainStoryboard.storyboard in Resources */,
+				3744743B173AEFE0001B4A3F /* obama.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				37447431173AEDBB001B4A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
